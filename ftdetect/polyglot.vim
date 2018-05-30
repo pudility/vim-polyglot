@@ -67,6 +67,9 @@ augroup filetypedetect
 
   " swift
   autocmd BufNewFile,BufRead *.swift set filetype=swift
+
+  " superflow
+  autocmd BufNewFile,BufRead *.spr set filetype=superflow
 augroup END
 
 " Fix for https://github.com/sheerun/vim-polyglot/issues/236#issuecomment-387984954
